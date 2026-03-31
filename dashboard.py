@@ -323,6 +323,9 @@ st.sidebar.markdown("""
     <span style='font-size:2.5rem;'>📊</span>
     <h2 style='color:#E8EAF6; margin:0;'>Financial Intelligence</h2>
     <p style='color:#6C7A89; margin:0; font-size:0.8rem;'>GB · EU · US Markets</p>
+</div>
+""", unsafe_allow_html=True)
+
 # Check if local files exist for DuckDB mode
 local_files_exist = os.path.exists(os.path.join(EXPORTS_DIR, "russell1000_edgar_filtered.csv"))
 engine_options = ["Cloud (BigQuery)"]
