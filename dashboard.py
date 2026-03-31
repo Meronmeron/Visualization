@@ -111,7 +111,7 @@ def query(sql, mode):
 @st.cache_resource
 def get_db_connection(mode):
     if mode == "Cloud (BigQuery)":
-        return bigquery.Client(project=PROJECT_ID)
+        return get_bq_client()
     else:
         con = duckdb.connect(database=':memory:')
         # Register CSVs
