@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+plotly_express
+google-cloud-bigquery
+duckdb

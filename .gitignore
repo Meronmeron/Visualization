@@ -1,0 +1,17 @@
+# Credentials
+*.json
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Data
+*.csv
+!russell1000_edgar_filtered.csv
+!GB_XBRL_filings_long.csv
+!EU_data.csv
+
+# OS
+.DS_Store
+.env
